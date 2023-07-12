@@ -48,13 +48,16 @@ ScrollReveal().reveal('.skills-items', {origin: 'bottom'});
 ScrollReveal().reveal('.projects h2', {origin: 'top', delay: 150});
 ScrollReveal().reveal('.project-items', {origin: 'bottom', delay: 250});
 
+//Galeria//
+ScrollReveal().reveal('.galery h2', {origin: 'top', delay: 150});
+
 //Contacto//
 ScrollReveal().reveal('.contact h2', {origin: 'left'});
 ScrollReveal().reveal('form > input[type="text"]', {origin: 'right', distance: '50px', delay: 500});
 ScrollReveal().reveal('form > input[type="email"]', {origin: 'left', distance: '50px', delay: 500});
 ScrollReveal().reveal('form > textarea', {opacity: 0.2, distance: '15px', delay: 400});
 
-//ScrollReveal().reveal('.form', {origin: 'right'}, {delay: 130});
+
 ScrollReveal().reveal('', {origin: '',distance: '0px'});
 
 // Fotter//
