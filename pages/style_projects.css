@@ -1,0 +1,84 @@
+/* CSS Reset*/
+/*Mensaje de prueba*/
+/*--CSS root colors--*/
+
+:root {
+  --banner:rgba(0, 0, 0, 0.8);
+  --transparencia: rgba(0, 0, 0, 0.4);
+  --body: #0B141E;
+  --logo: #3368a8;
+  --text: #fff;
+  --social_hover: #8a5110;
+  --btn_hover: #2b885d
+}
+
+/*--CSS root colors--*/
+
+  @import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+  * {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+
+  a{
+    color: var(--text);
+  }
+
+  html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+  }
+
+  body {
+    background: var(--body);
+    color: var(--text);
+  }
+
+/* Header section */
+
+.header {
+  background: var(--banner);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 2rem 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1;
+}
+
+.logo {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: var(--logo);
+}
+
+.menu-bar a {
+  font-size: 1.5rem;
+  margin-left: 3.5rem;
+  transition: 0.4s ease;
+  font-weight: 600;
+}
+
+.menu-bar a:hover {
+  color: var(--logo);
+}
+
+#menu-btn {
+  font-size: 3rem;
+  display: none;
+}
+
+section {
+  padding: 10rem 10%;
+  min-height: 100vh;
+}
