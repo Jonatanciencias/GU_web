@@ -1,6 +1,4 @@
 /* CSS Reset*/
-/*Mensaje de prueba*/
-/*--CSS root colors--*/
 
 :root {
   --banner:rgba(0, 0, 0, 0.8);
@@ -74,7 +72,6 @@
   font-weight: 500;
 }
 
-
 #menu-btn {
   font-size: 3rem;
   display: none;
@@ -83,4 +80,18 @@
 section {
   padding: 10rem 10%;
   min-height: 100vh;
+}
+
+/* Project section*/
+
+.intro_project {
+  text-align: left;
+  font-size: 1.3rem;
+  opacity: 0.5;
+}
+
+.content_project {
+  text-align: left;
+  font-size: 1.3rem;
+  opacity: 0.5;
 }
