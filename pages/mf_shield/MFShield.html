@@ -4,51 +4,52 @@
     <meta charset="UTF-8" />
     <meta
       name="viewport"
-      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
-    />
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <!---Link archivo CSS -->
     <link rel="stylesheet" href="/pages/style_projects.css" />
     <!---Link Box Icons -->
-    <link
-      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
-      rel="stylesheet"
-    />
-
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
     <title>Proyectos</title>
   </head>
 <body>
+
     <!-- Header section -->
   <header class="header">
     <a href="/index.html" class="logo">G U</a>
     <i class="bx bx-menu" id="menu-btn"></i>
     <nav class="menu-bar">
-      <!--<a href="#home">Home</a>-->
       <a href="#">Arduino MultiFunction Shield</a>
     </nav>
   </header>
 
+    <!--Project section-->
   <section class="project01" id="project01">
+
+    <!--Intro Project-->
     <div class="intro_project">
       <p> 
         El <i>Multifunction Shield</i>  es una placa de expansión diseñada para ser utilizada con placas <i>Arduino Uno</i>,  cuenta con una serie de componentes integrados como botones, potenciómetros, sensores de temperatura y luz, y una pantalla LCD.
       </p>
     </div>
-    <div class="content_project">
+
+    <!--Index project section-->
+    <div class="index_project">
       <h2>Contenido</h2>
       <ul>
-        <li><a href="#">Antes de comenzar</a></li>
-        <li><a href="#">Que es el Multifunction Shield</a></li>
-        <li><a href="#">Circuito y Componentes</a></li>
+        <li><a href="#Before">Antes de comenzar</a></li>
+        <li><a href="#WhatIs">Que es el Multifunction Shield</a></li>
+        <li><a href="#circuit">Circuito y Componentes</a></li>
         <li><a href="#">Ejemplos</a></li>
         <li><a href="#">Referencias</a></li>
       </ul>  
     </div>
 
+    <!--Project content-->
     <div class="content">
-      <h2>Antes de comenzar</h2>
-
-      <div class="inner_content">
+      <!--Iner project content-->
+      <div class="inner_content" id="Before">
+        <h2>Antes de comenzar</h2>
         <h3>Instalación previa</h3>
         <p>
           Instalar el IDE Arduino 2.0 o superior
@@ -70,6 +71,7 @@
         </ul>
       </div>
 
+      <!--Iner project content-->
       <div class="inner_content">
         <h3>Conexion al computador</h3>
         <p>La conexión del Arduino se hace de manera tradicional y cada vez que se inicie el programa:</p>
@@ -83,14 +85,17 @@
       </div>
     </div>
 
+    <!--Project content-->
     <div class="content">
-      <div class="inner_content">
+      <!--Iner project content-->
+      <div class="inner_content" id="WhatIs">
         <h2>Que es el Multifunction Shield</h2>
         <p>Arduino es una forma sencilla en que los aventureros de la programacion pueden comenzar a escribir codigo e interactuar con el <i>hardware</i>, para adquirir confianza con el dispositivo es necesario hacer varios proyectos que necesitan de componentes electronicos, por lo que algunos usuarios han creado el <i>multifunction shield</i> que es una placa de bajo costo que se monta sobre el <s>Arduino</s> UNO y trae preinstaladas una serie de componentes listos para realizar pruebas, ademas de una libreria que hace mas facil el acceso a cada uno de sus componentes</p>
         
         <img src="/resources/assets/Arduino Shield.png" alt="Placa Arduino">
       </div>
 
+      <!--Iner project content-->
       <div class="inner_content">
         <h3>Especificaciones</h3>
         <ul>
@@ -126,10 +131,65 @@
               <li>A5</li>
             </ul>
           </li>
-
         </ul>
       </div>
+    </div>
 
+    <!--Project content-->
+    <div class="content">
+      <!--Iner project content-->
+      <div class="inner_content" id="circuit">
+        <h2>Circuito y Componentes</h2>
+        <p>Este es un diagrama aproximado del circuito.</p>
+        <img src="/resources/assets/2-Arduino-MF-Shield-Schematic.webp" alt="">
+      </div>
+      <div class="inner_content">
+        <h3>Analisis del circuito</h3>
+        <h4>4 LEDs</h4>
+        <h4>3 botones programables y 1 mas par RESET</h4>
+        <h4>Piezo Buzzer</h4>
+        <h4>Potenciometro</h4>
+        <h4>Puerto para el sensor de temperatura</h4>
+        <h4>Puerto para el sensor infrarojo</h4>
+        <h4>LED display</h4>
+        <h4>4 puertos PWM</h4>
+        <h4>Puerto Serial</h4>
+        <h5>Nomenclaura Pines mas comunes en Bluetooth</h5>
+      </div>
+
+      <!--Iner project content-->
+      <div class="inner_content">
+        <h3>Recomendaciones para la conexión de módulos</h3>
+      </div>
+    </div>
+
+    <div class="content" id="examples">
+      <h2>Ejemplos</h2>
+      <ol>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ol>
+    </div>
+
+    <div  class="content" id="biblio">
+      <h2>Bibliografia</h2>
+      <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
     </div>
 
 
