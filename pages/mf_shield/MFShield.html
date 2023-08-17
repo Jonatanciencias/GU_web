@@ -145,16 +145,110 @@
       </div>
       <div class="inner_content">
         <h3>Analisis del circuito</h3>
+
         <h4>4 LEDs</h4>
+        <p>Los 4 LEDS estan unidos a los pines:</p>
+        <ol>
+          <li>Pin Digital 10 --> LED D4</li>
+          <li>PD11 --> LED D3</li>
+          <li>PD12 --> LED D2</li>
+          <li>PD13 --> LED D1</li>
+        </ol>
+
         <h4>3 botones programables y 1 mas par RESET</h4>
+        <p>Los 3 botones estan unidos a los pines:</p>
+        <ul>
+          <li>Pin Analogo 1 --> S1</li>
+          <li>PA2 --> S2</li>
+          <li>PA3 --> S3</li>
+        </ul>
+        <p>El reset se nombra como S4</p>
+
         <h4>Piezo Buzzer</h4>
+        <p>El piezo-buzzer esta conetado el PD3 (PWM) a traves de un transistor PNP</p>
+
         <h4>Potenciometro</h4>
+        <p>El trimpot de 10k esta conectado al PA0</p>
+
         <h4>Puerto para el sensor de temperatura</h4>
+        <p>El sensor infrarojo se conecta al PD2</p>
+
         <h4>Puerto para el sensor infrarojo</h4>
+        <p>El display esta conectado a los PD4, PD7 Y PD8</p>
+
         <h4>LED display</h4>
+        <p>El display esta conectado a los PD4, PD7 Y PD8</p>
+
         <h4>4 puertos PWM</h4>
+        <p>Todos los pines de la izquierda estan conectados a <i>PWM</i> GND, los pines centrales a 5V y los derechos a PD5, PD6, PD9 (pueden ser usados como <i>PWM</i>) y al PA5</p>
+        <p>No se recomienda conectar servomotes directamente a estos puertos puede causar un exceso de corriente para el arduino, es mejor conectarlo a 5V de manera externa</p>
+
         <h4>Puerto Serial</h4>
+        <p>Como es un puerto serial puede ser usado para radio, voz, reconocimiento de voz; pero generalmente es usado para Bluetooth.</p>
+        <p>Los pines que trae un modulo APC2020 son 9 de los cuales 7 son funcionales, para el Arduino se conectan los siguientes:</p>
+        <ul>
+          <ol>Pin 1: GND</ol>
+          <ol>Pin 2: GND</ol>
+          <ol>Pin 4: RXD URAT input --> que va al PD0 del Arduino</ol>
+          <ol>Pin 5: TXD URAT output --> que al PD1 del Arduino</ol>
+        </ul>
+
         <h5>Nomenclaura Pines mas comunes en Bluetooth</h5>
+        <table>
+          <tr>
+            <th colspan="3">3APC220-43</th>
+          </tr>
+          <tr>
+            <th>Pin NO</th>
+            <th>Pin Name</th>
+            <th>Description</th>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>GND</td>
+            <td>Grounding of Power Supply</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>GND</td>
+            <td>Grounding of Power Supply</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>GND</td>
+            <td>Grounding of Power Supply</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>GND</td>
+            <td>Grounding of Power Supply</td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>GND</td>
+            <td>Grounding of Power Supply</td>
+          </tr>
+          <tr>
+            <td>6</td>
+            <td>GND</td>
+            <td>Grounding of Power Supply</td>
+          </tr>
+          <tr>
+            <td>7</td>
+            <td>GND</td>
+            <td>Grounding of Power Supply</td>
+          </tr>
+          <tr>
+            <td>8</td>
+            <td>GND</td>
+            <td>Grounding of Power Supply</td>
+          </tr>
+          <tr>
+            <td>9</td>
+            <td>GND</td>
+            <td>Grounding of Power Supply</td>
+          </tr>
+        </table>
       </div>
 
       <!--Iner project content-->

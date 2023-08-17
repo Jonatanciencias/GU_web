@@ -142,5 +142,19 @@ img {
 
 .content {
   box-sizing: border-box;
-  background-color: grey
+
+}
+
+table,
+td {
+  border: 1px solid #333;
+}
+th {
+  border: 1px solid #333;
+}
+
+thead,
+tfoot {
+  background-color: #333;
+  color: #fff;
 }
